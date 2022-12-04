@@ -1,3 +1,2 @@
 public class Exercise01 {
-
 }
