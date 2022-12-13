@@ -11,13 +11,13 @@ public class Exercise03 {
 
     }
 
-    public static int missingNum(int[] arr) {
-        int[] check = new int[10];
-        for (int i = 0; i < arr.length; i++) {
-            if ()
-        }
-
-        return
-    }
+//    public static int missingNum(int[] arr) {
+//        int[] check = new int[10];
+//        for (int i = 0; i < arr.length; i++) {
+//            if ()
+//        }
+//
+//        return
+//    }
 
 }
