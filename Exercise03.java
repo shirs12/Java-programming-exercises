@@ -12,6 +12,7 @@ public class Exercise03 {
         printArray(numbers);
         mergeSort(numbers);
         printArray(numbers);
+        System.out.println(missingNum(numbers));
     }
 
     public static void printArray(int[] array){
@@ -23,15 +24,20 @@ public class Exercise03 {
         System.out.println();
     }
 
-//    public static int missingNum(int[] arr) {
-//        mergeSort(arr);
-//        int[] check = new int[10];
-//        for (int i = 0; i < arr.length; i++) {
-//            if ()
-//        }
-//
-//        return
-//    }
+    public static int missingNum(int[] arr) {
+        mergeSort(arr);
+        int[] check = new int[10];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == i + 1)
+                check[i] = 1;
+        }
+        for (int i = 0; i < check.length; i++){
+            if (check[i] == 0)
+                return i + 1;
+        }
+
+        return -1;
+    }
 
     // Complexity: O(n log n)
     public static void mergeSort(int[] arr) {
