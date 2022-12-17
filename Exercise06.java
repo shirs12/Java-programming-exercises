@@ -15,13 +15,11 @@ public class Exercise06 {
      */
 
     public static void main(String[] args) {
-        System.out.println(towerHanoi(5));
+        System.out.println(towerHanoi(3));
     }
 
     public static int towerHanoi(int discs) {
-        if (discs == 0)
-            return 1;
-        return towerHanoi(discs - 1) + towerHanoi(discs - 1);
+        return (int) (Math.pow(2, discs) - 1);
     }
 
 
