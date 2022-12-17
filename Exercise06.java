@@ -15,7 +15,9 @@ public class Exercise06 {
      */
 
     public static void main(String[] args) {
+        System.out.println(towerHanoi(0));
         System.out.println(towerHanoi(3));
+        System.out.println(towerHanoi(5));
     }
 
     public static int towerHanoi(int discs) {
