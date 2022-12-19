@@ -23,8 +23,15 @@ public class Exercise08 {
     }
 
     public static String cupSwapping(String[] cups) {
-
-        return 
+        String cup = "B";
+        for (String s : cups) {
+            if (!s.toUpperCase().contains(cup))
+                return cup;
+            else {
+                cup = s.toUpperCase().replace(cup, "");
+            }
+        }
+        return cup;
     }
 
 }
