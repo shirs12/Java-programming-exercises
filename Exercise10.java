@@ -28,6 +28,7 @@ public class Exercise10 {
 
         System.out.println(getCoinBalances(str1, str1));  // ➞ [5, 5]
         // Both people spend one coin, and receive 3 coins each.
+
         System.out.println(getCoinBalances(str2, str1));  // ➞ [6, 2]
         // Person 1 gains 3 coins, while person 2 loses a coin.
 
