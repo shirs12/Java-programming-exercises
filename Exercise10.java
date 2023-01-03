@@ -43,7 +43,7 @@ public class Exercise10 {
         for (int i = 0; i < r.length; i++) {
 
         }
-        return
+        return arr
     }
 
 }
