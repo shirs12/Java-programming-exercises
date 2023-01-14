@@ -3,6 +3,7 @@ public class Exercise10 {
     https://edabit.com/challenge/WmGeYLJbud69ezCew
 
     Coin Co-Operation
+
     Let's say that there exists a machine that gives out free coins,
     but with a twist!
     Separating two people is a wall,
