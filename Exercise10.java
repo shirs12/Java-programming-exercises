@@ -41,7 +41,7 @@ public class Exercise10 {
     public static int[] getCoinBalances(String[] r, String[] b) {
         int[] arr = new int[2];
         for (int i = 0; i < r.length; i++) {
-            if ()
+//            if ()
         }
         return arr;
     }
