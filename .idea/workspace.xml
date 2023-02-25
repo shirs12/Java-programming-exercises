@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66169ac3-8fab-441f-8ba1-8c0f5f8a5794" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java-programming-exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +38,7 @@
     "last_opened_file_path": "C:/Users/shirs/SelfLearning/git&github/Java-programming-exercises"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercise12">
-    <configuration name="Exercise07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise07" />
-      <module name="Java-programming-exercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Exercise13">
     <configuration name="Exercise08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exercise08" />
       <module name="Java-programming-exercises" />
@@ -76,6 +67,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercise13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise13" />
+      <module name="Java-programming-exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Java-programming-exercises" />
       <method v="2">
@@ -91,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise13" />
         <item itemvalue="Application.Exercise12" />
         <item itemvalue="Application.Exercise11" />
         <item itemvalue="Application.Exercise09" />
         <item itemvalue="Application.Exercise08" />
-        <item itemvalue="Application.Exercise07" />
       </list>
     </recent_temporary>
   </component>
