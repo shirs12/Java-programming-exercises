@@ -26,23 +26,52 @@ public class Exercise10 {
         String[] str3 = {"share", "share", "share"};
         String[] str4 = {"steal", "share", "steal"};
 
-        System.out.println(getCoinBalances(str1, str1));  // ➞ [5, 5]
+        printArray(getCoinBalances(str1, str1));  // ➞ [5, 5]
         // Both people spend one coin, and receive 3 coins each.
 
-        System.out.println(getCoinBalances(str2, str1));  // ➞ [6, 2]
+        printArray(getCoinBalances(str2, str1));  // ➞ [6, 2]
         // Person 1 gains 3 coins, while person 2 loses a coin.
 
-        System.out.println(getCoinBalances(str2, str2));  // ➞ [3, 3]
+        printArray(getCoinBalances(str2, str2));  // ➞ [3, 3]
         // Neither person spends any coins and so no one gets rewarded.
 
-        System.out.println(getCoinBalances(str3, str4));  // ➞ [3, 11]
+        printArray(getCoinBalances(str3, str4));  // ➞ [3, 11]
+    }
+
+    public static void printArray(int[] array){
+        System.out.print("[");
+        for (int i = 0; i < array.length-1; i++) {
+            System.out.print(array[i] + ",");
+        }
+        System.out.print(array[array.length-1] + "]");
+        System.out.println();
     }
 
     public static int[] getCoinBalances(String[] r, String[] b) {
-        int[] arr = new int[2];
-        for (int i = 0; i < r.length; i++) {
-//            if ()
+        // r[0], b[1]
+        int[] arr = {3, 3};
+        int index = 0;
+
+        while (index < r.length && index < b.length){
+            if (r[index].equals("share") && b[index].equals("share")){
+                arr[0]--;
+                arr[0] += 3;
+                arr[1]--;
+                arr[1] += 3;
+            }
+            else if (r[index].equals("share") && b[index].equals("steal")){
+                arr[0]--;
+                arr[1] += 3;
+            }
+
+            else if (b[index].equals("share") && r[index].equals("steal")){
+                arr[0] += 3;
+                arr[1]--;
+            }
+
+            index++;
         }
+
         return arr;
     }
 
